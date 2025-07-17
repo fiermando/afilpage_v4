@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+input, select, button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+.produk-container {
+  display: grid;
+  gap: 15px;
+}
+.produk-item {
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 8px;
+}
+.produk-item img {
+  max-width: 100px;
+  display: block;
+}
